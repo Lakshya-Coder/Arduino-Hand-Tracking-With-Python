@@ -11,7 +11,7 @@ cap.set(4, hCam)
 
 tip_ids = [4, 8, 12, 16, 20]
 
-arduino = SerialObject('/dev/cu.usbmodem14101')
+arduino = SerialObject('/dev/cu.usbserial-1410')
 
 detector = HandDetector(detectionCon=0.75, maxHands=1)
 
